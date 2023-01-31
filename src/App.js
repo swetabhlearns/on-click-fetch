@@ -22,7 +22,7 @@ function App() {
       <header className="App-header">
         <nav className="nav">
           <h1>BRAND NAME</h1>
-          <button onClick={handleClick}>Click to Fetch</button>
+          <button onClick={handleClick}>Get Users</button>
         </nav>
         {loading ? (
           <h1 className="loading">Loading...</h1>
